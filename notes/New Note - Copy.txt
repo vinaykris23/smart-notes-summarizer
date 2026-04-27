@@ -1,0 +1,16 @@
+If you’ve ever had to analyze a set of documents — such as social media posts, open-ended survey responses, focus group transcripts, software logs, etc. — you may have wondered about natural language processing (NLP). NLP is an umbrella term that encompasses a wide variety of algorithmic methods that can be used to automatically analyze large volumes of text.
+
+Some of these methods are “supervised,” which means that they require researchers to first classify a sample set of documents manually. Algorithms can then use these manual classifications to learn word associations well enough to apply the same system to a larger collection of documents. Supervised learning algorithms can save researchers a lot of time, but they still involve extensive and careful reading of documents and detailed categorization.
+
+Other NLP methods are “unsupervised,” which means they don’t require training data classified by people. Instead, these algorithms look at how words are used in the documents you’re examining. They pick up on patterns and provide an estimate of what the documents convey with little direct supervision from the researcher. One of the most popular forms of unsupervised learning for text analysis is topic models, which I’ll be addressing here and in future posts.
+
+A topic model is a type of algorithm that scans a set of documents (known in the NLP field as a corpus), examines how words and phrases co-occur in them, and automatically “learns” groups or clusters of words that best characterize those documents. These sets of words often appear to represent a coherent theme or topic.
+
+There are a variety of commonly used topic modeling algorithms — including non-negative matrix factorization, Latent Dirichlet Allocation (LDA), and Structural Topic Models. Ongoing research has produced other variants as well. At Pew Research Center, we’ve been testing some of these algorithms and exploring how topic models might be able to help us analyze large collections of text, such as open-ended survey responses and social media posts. Here, I’ll be exploring a dataset consisting of open-ended responses to a survey about what makes life feel fulfilling. All we need to train the model is a spreadsheet with a single column of text, one response (i.e. document) per row.
+
+
+
+
+
+Summary 1
+If you’ve ever had to analyze a set of documents — such as social media posts, open-ended survey responses, focus group transcripts, software logs, etc. A topic model is a type of algorithm that scans a set of documents (known in the NLP field as a corpus), examines how words and phrases co-occur in them, and automatically “learns” groups or clusters of words that best characterize those documents. At Pew Research Center, we’ve been testing some of these algorithms and exploring how topic models might be able to help us analyze large collections of text, such as open-ended survey responses and social media posts. For example, when we want to summarize our text on the basis of the frequency method, we store all the important words and frequency of all those words in the dictionary.
