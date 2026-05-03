@@ -2,6 +2,8 @@
 
 A Streamlit-based web application that summarizes text using three NLP algorithms: **LSA (Latent Semantic Analysis)**, **TextRank**, and **BERT (Transformer-based)**.
 
+Live Demo: https://vinayk23-smart-notes-summarizer.streamlit.app/
+
 ---
 
 ## Features
@@ -78,16 +80,6 @@ smart-notepad-summarizer/
 4. Adjust the **number of sentences** using the slider
 5. Click **Generate Summary**
 6. Optionally **Download** the summary as a text file
-
----
-
-## Deploy on Streamlit Cloud (Free)
-
-1. Push this repository to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub account
-4. Select this repo and set **Main file path** to `v14b.py`
-5. Click **Deploy** — you'll get a shareable public URL!
 
 ---
 
